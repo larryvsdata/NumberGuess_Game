@@ -1,17 +1,23 @@
 package academy.learnprogramming;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+@Slf4j
+@Getter
+@Component
 public class GameImpl implements Game {
 
-    private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
+//    private static final Logger log = LoggerFactory.getLogger(GameImpl.class);
 
     @Autowired
+    @Getter(AccessLevel.NONE)
     private NumberGenerator numberGenerator;
 
     @Autowired
@@ -28,8 +34,8 @@ public class GameImpl implements Game {
     @PostConstruct
     @Override
     public void reset() {
-        smallest = 0;
-        guess = 0;
+        smallest = numberGenerator.getMinNumber();
+        guess = numberGenerator.getMinNumber();
         remainingGuesses = guessCount;
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();

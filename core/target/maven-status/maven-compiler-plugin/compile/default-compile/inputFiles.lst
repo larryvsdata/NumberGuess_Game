@@ -1,7 +1,11 @@
-/Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/AppConfig.java
+/Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/GuessCount.java
+/Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/config/GameConfig.java
+/Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/MinNumber.java
 /Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/Game.java
 /Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/GameImpl.java
 /Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java
+/Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/config/AppConfig.java
+/Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/MaxNumber.java
 /Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/MessageGenerator.java
 /Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java
 /Users/ermanbekaroglu/Desktop/Udemy_Courses/Spring_Masterclass/guessthenumbergame/core/src/main/java/academy/learnprogramming/NumberGenerator.java
